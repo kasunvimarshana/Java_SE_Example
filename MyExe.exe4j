@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="4.0.3" transformSequenceNumber="1">
+  <directoryPresets config="F:/JAVA_SE" />
+  <application name="MySoft" distributionSourceDir="F:/JAVA_SE/ExeEx/dist">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="MySoft" type="1" iconSet="true" iconFile="F:/JAVA_SE/CloneTrooper.ico" executableDir="." redirectStderr="true" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" amd64="false">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="true" autoOff="true" alwaysOnTop="true" width="1280" height="720" bitmapFile="F:/JAVA_SE/xbone.png">
+    <text>
+      <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+      <versionLine x="20" y="40" text="version %VERSION%" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="exeex.MySoft" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="" minVersion="1.3" maxVersion="" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <scanDirectory location="." failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>
+
