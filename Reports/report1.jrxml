@@ -1,0 +1,17 @@
+<!DOCTYPE jasperReport PUBLIC 
+"-//JasperReports//DTD Report Design//EN" 
+"http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+<jasperReport name="Report1">
+<detail>
+	<band height="60">
+		<staticText>
+			<reportElement x="180" y="0" width="200" height="20"/>
+			<text><![CDATA[ABC Company (PVT)Ltd]]></text>
+		</staticText>
+		<staticText>
+			<reportElement x="180" y="40" width="200" height="20"/>
+			<text><![CDATA[Daily Sales Report]]></text>
+		</staticText>
+	</band>
+</detail>
+</jasperReport>
